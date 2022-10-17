@@ -17,3 +17,4 @@ $(document).ready(function() {
         }
     })
 });
+// format save button to store info
