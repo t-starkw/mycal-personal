@@ -8,7 +8,6 @@ $(document).ready(function() {
 
     // Compare currentHour with timeDivs and assign past, present, and future ids for color change
     $(".time-div").each(function() {
-        currentHour = 11;
         var timeDiv = $(this).attr("id").split("-")[1];
         console.log(timeDiv);
         if (currentHour == timeDiv ) {
@@ -42,7 +41,7 @@ $(document).ready(function() {
     $('#hour-17 .description').val(localStorage.getItem('hour-17'));
 
 // Reset schedule button (clear local storage)
-    $("#resetSchedule").click(function(event) {
+    $(".resetSchedule").click(function(event) {
         event.preventDefault;
         $("textarea").val("");
         localStorage.clear();
