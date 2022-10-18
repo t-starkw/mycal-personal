@@ -2,6 +2,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  /* background-image: url(https://images.pexels.com/photos/7078446/pexels-photo-7078446.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 textarea {
@@ -19,6 +22,17 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  
+}
+
+#currentDay {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 5%;
+}
+
+.container {
+  max-width: 80%;
 }
 
 .description {
@@ -70,5 +84,18 @@ textarea {
 
 .saveBtn i:hover {
   font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.resetSchedule {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #054a5a;
+  color: white;
+}
+
+.resetSchedule:hover {
+  background-color: #06aed5;
   transition: all 0.3s ease-in-out;
 }
