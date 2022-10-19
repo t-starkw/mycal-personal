@@ -31,7 +31,7 @@ $(document).ready(function() {
         console.log(localStorage);
     });
 // Load saved data from local storage
-    $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+    $('#hour-09 .description').val(localStorage.getItem('hour-09'));
     $('#hour-10 .description').val(localStorage.getItem('hour-10'));
     $('#hour-11 .description').val(localStorage.getItem('hour-11'));
     $('#hour-12 .description').val(localStorage.getItem('hour-12'));
@@ -40,11 +40,10 @@ $(document).ready(function() {
     $('#hour-15 .description').val(localStorage.getItem('hour-15'));
     $('#hour-16 .description').val(localStorage.getItem('hour-16'));
     $('#hour-17 .description').val(localStorage.getItem('hour-17'));
-
+});
 // Reset schedule button (clear local storage)
-    $(".resetSchedule").click(function(event) {
-        event.preventDefault;
-        $("textarea").val("");
-        localStorage.clear();
-    })    
+$(".resetSchedule").click(function(event) {
+    event.preventDefault;
+    $("textarea").val("");
+    localStorage.clear();
 });
