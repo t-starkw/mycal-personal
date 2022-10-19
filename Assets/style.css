@@ -1,10 +1,14 @@
+html, body{ 
+  height: 100%;
+  background-image: url("img/wallpaper-sun.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
-  /* background-image: url(https://images.pexels.com/photos/7078446/pexels-photo-7078446.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 textarea {
@@ -19,16 +23,16 @@ textarea {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: #1f1f1fe3;
   border-radius: 0;
-  border-bottom: 10px solid black;
-  
+  padding-bottom: 0px;
+
 }
 
 #currentDay {
   font-size: 40px;
   font-weight: 400;
-  margin-top: 5%;
+  color: #1f1f1fe3;
 }
 
 .container {
@@ -37,6 +41,7 @@ textarea {
 
 .description {
   white-space: pre-wrap;
+  font-size: 20px;
 }
 
 .time-block {
@@ -51,26 +56,30 @@ textarea {
 
 .hour {
   text-align: center;
-  background-color: #ffffff;
+  background-color: transparent;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
 .past {
   border-radius: 15px;
-  background-color: #d3d3d3;
+  background-color: #a6aaac93;
   color: white;
+}
+
+.past .description {
+  color: whitesmoke;
 }
 
 .present {
   border-radius: 15px;
-  background-color: #ff6961;
+  background-color: #ff696173;
   color: white;
 }
 
 .future {
   border-radius: 15px;
-  background-color: #77dd77;
+  background-color: #77dd7788;
   color: white;
 }
 
@@ -78,7 +87,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #327492;
   color: white;
 }
 
@@ -91,11 +100,11 @@ textarea {
   border: 1px solid black;
   padding: 10px;
   border-radius: 15px;
-  background-color: #054a5a;
+  background-color: #327492;
   color: white;
 }
 
 .resetSchedule:hover {
-  background-color: #06aed5;
+  background-color: #275b7457;
   transition: all 0.3s ease-in-out;
 }

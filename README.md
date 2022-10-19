@@ -7,7 +7,7 @@ The purpose of this project is to create a simple calendar web application that 
 This daily planner displays color-coded timeblocks for each standard business hour. The timeblock color indicates whether that time block is in the past, present or future. By clicking into the timeblock, a user can enter and dave an event by clicking the timeblock's corresponding 'save' icon. This application runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
 ## Visuals
-![img]()
+![img](Assets/img/screenshot.png)
 
 ## Installation
 You can access this web application at the following link : 
