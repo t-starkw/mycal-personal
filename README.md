@@ -11,7 +11,7 @@ This daily planner displays color-coded timeblocks for each standard business ho
 
 ## Installation
 You can access this web application at the following link : 
-* [Work Day Planner](t-starkw.github.io/mycal-personal)
+* [Work Day Planner](https://t-starkw.github.io/mycal-personal/)
 
 ## License
 N/A
